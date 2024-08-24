@@ -1,0 +1,357 @@
+@font-face {
+  font-family: "Franklin";
+
+  src: local("Franklin");
+  src: url("/src/assets/fonts/Franklin\ Gothic\ Medium\ Cond\ Regular.ttf")
+    format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vazir";
+
+  src: local("Vazir");
+  src: url("/src/assets/fonts/Vazir.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BNazanin-Regular";
+
+  src: local("BNazanin-Regularr");
+  src: url("/src/assets/fonts/BNazanin-Regular.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  width: 402.1px;
+  /* height: 845px; */
+  /* background-color: aqua; */
+  /* border: 1px solid rgb(126, 30, 30); */
+}
+
+.border-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: end;
+  width: 402.1px;
+  margin: 2px;
+  padding: 0px 5px 10px 5px;
+  /* background: #9296e5; */
+  height: 850px;
+}
+
+.date-container {
+  font-family: "Vazir" !important;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+  width: 98.2%;
+}
+.date {
+  display: flex;
+  padding-bottom: 5px;
+
+  height: 50px;
+  width: 46%;
+  margin: 2px;
+  border: 1px solid black;
+  font-size: 17px !important;
+  font-weight: 600;
+}
+.tarikhh {
+  font-family: "Vazir" !important;
+  font-size: 15px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  width: 80%;
+  height: 73%;
+  margin: 10px;
+}
+.time {
+  display: flex;
+  align-items: center;
+
+  height: 50px;
+  width: 44%;
+  margin: 2px;
+  border: 1px solid black;
+  font-size: 17px !important;
+  font-weight: 600;
+}
+.time1 {
+  font-family: "Vazir" !important;
+  font-size: 15px;
+  display: flex;
+  align-items: end;
+  height: 80%;
+  justify-content: space-between;
+  width: 60%;
+  margin: 10px;
+}
+/* .date-container p {
+  font-size: 12px;
+  margin: 4px;
+} */
+/* .tarikh {
+  text-align: end;
+  width: 20%;
+  font-size: 18px;
+
+  padding: 4px 8px;
+  background: #000;
+} */
+.image-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 76px;
+  height: 80px;
+}
+.img img {
+  width: 100%;
+  height: 70px;
+}
+.company-name {
+  text-align: center;
+  word-spacing: 5px;
+  height: 22px;
+  font-size: 17px !important;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 266px;
+  padding: 0px 5px;
+}
+.info1 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-family: "BNazanin-Regular";
+  width: 100%;
+  height: 75px;
+  margin: 8px 5px;
+
+  border: 1px solid black;
+  font-size: 17px !important;
+  font-weight: 600;
+}
+.info1-info {
+  display: flex;
+  align-items: end;
+  width: 90%;
+  height: 65%;
+  margin-right: 5px;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.info-bot {
+  font-size: 15px;
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 75%;
+}
+.info1-bot {
+  font-size: 15px;
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 85%;
+}
+.tranship {
+  width: 35%;
+  align-items: end;
+
+  font-size: 17px !important;
+  font-weight: 600;
+}
+.khareji {
+  width: 40%;
+
+  font-family: "Vazir" !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+}
+.shenase {
+  width: 20%;
+  font-size: 15px;
+  font-weight: 600 !important;
+  font-size: 17px !important;
+}
+.kamel {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-right: 2%;
+}
+.kamel p {
+  font-size: 15px !important;
+  font-family: "BNazanin-Regular" !important;
+}
+
+.info {
+  display: flex;
+
+  align-items: center;
+  font-size: 15px;
+  width: 100%;
+  height: 75px;
+  margin: 7px 5px;
+  padding: 0px 6px;
+  padding-top: 5px;
+  border: 1px solid black;
+}
+.info p {
+  height: 24px;
+  word-spacing: 1px;
+  font-size: 17px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.pelak-items {
+  min-width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 1px solid black;
+  margin-right: 2px;
+  padding-left: 3px;
+}
+.pelak-items p {
+  word-spacing: 1px;
+  font-size: 15px !important;
+  /* font-family: "Vazir" !important; */
+  font-weight: 600;
+}
+
+.gas-container {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  padding: 1px 2px;
+  /* background: #58cd3086; */
+}
+
+.baks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.bak {
+  font-family: "BNazanin-Regular" !important;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 47%;
+  height: 51px;
+  margin: 8px 3px;
+  border: 1px solid black;
+  font-size: 17px !important;
+  font-weight: 600;
+}
+.bak1 {
+  font-family: "BNazanin-Regular" !important;
+  font-size: 16px !important;
+
+  font-weight: 600;
+  display: flex;
+  align-items: end;
+
+  /* background: #d4b3b3; */
+}
+.bak p {
+  font-family: "BNazanin-Regular" !important;
+  font-size: 16px;
+}
+.inner-bak {
+  display: flex;
+  height: 85%;
+  align-items: end;
+}
+
+.warning-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  font-size: 17px !important;
+  font-weight: 600;
+}
+.litr-span {
+  font-family: "Vazir" !important;
+  font-size: 17px;
+}
+.lit-style {
+  /* font-family: "Vazir" !important; */
+  /* font-weight:bold; */
+  direction: ltr;
+}
+
+.signatuare-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 156px;
+  padding: 2px;
+  font-size: 17px !important;
+  font-weight: 600;
+}
+.sign-area {
+  margin: 2px;
+  /* margin-bottom: 10px; */
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.etelaat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+@media screen and (max-width: 680px) {
+  .main-form-container {
+    /* min-width: 400px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 385.1px;
+    height: 900px;
+  }
+}

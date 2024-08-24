@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  font-family: "BNazanin-Regular" !important;
+}
+
+@font-face {
+  font-family: "BNazanin-Regular";
+
+  src: local("BNazanin-Regular");
+  src: url("/src/assets/fonts/BNazanin-Regular.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+  
+}
+@font-face {
+  font-family: "Calibry";
+
+  src: local("Calibry");
+  src: url("/src/assets/fonts/Calibry.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  min-width: 385px;
+  /* height: 100%; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main-input-container {
+  display: flex;
+
+  /* align-items: center; */
+
+  height: 680px;
+}
+.print-container {
+  display: flex;
+  align-items: center;
+}
+.main-login {
+  background: #cfe8ff;
+  min-width: 380px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
