@@ -347,7 +347,7 @@
 
 @media screen and (max-width: 680px) {
   .main-form-container {
-    /* min-width: 400px; */
+    min-width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;

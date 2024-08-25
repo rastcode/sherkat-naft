@@ -48,8 +48,8 @@ function App() {
   }, []);
 
   const [up, setUp] = useState({
-    u: "vahid",
-    p: "4701339",
+    u: "naft",
+    p: "123456",
   });
 
   const [isLogin, setIsLogin] = useState(localStorage.getItem("isLogin") || "");
