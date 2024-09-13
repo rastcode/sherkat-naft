@@ -91,7 +91,7 @@ function Form() {
                 value={
                   total ? (
                     <div className="lit-style">
-                      {` ${total}`} <span className="litr-span">Lit</span>
+                      {` ${total}`} 
                     </div>
                   ) : (
                     "0"

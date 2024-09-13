@@ -310,11 +310,12 @@
   font-weight: 600;
 }
 .litr-span {
-  font-family: "Vazir" !important;
+ 
   font-size: 18px;
   
 }
 .lit-style {
+  font-family: "Vazir" !important;
   direction: ltr;
   display: flex;
   align-items: end;
