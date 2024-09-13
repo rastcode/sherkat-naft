@@ -51,7 +51,6 @@
 }
 
 .date-container {
-  
   display: flex;
   justify-content: space-between;
   margin-bottom: 7px;
@@ -78,8 +77,6 @@
   height: 69%;
   margin: 10px;
   margin-right: 20px;
-  
-  
 }
 .time {
   display: flex;
@@ -102,7 +99,6 @@
   width: 65%;
   margin: 10px;
   margin-right: 15px;
-  
 }
 /* .date-container p {
   font-size: 12px;
@@ -172,7 +168,6 @@
   margin-right: 5px;
   justify-content: space-between;
   font-size: 15px;
- 
 }
 .info-bot {
   font-size: 15px;
@@ -180,7 +175,6 @@
   align-items: end;
   width: 100%;
   height: 75%;
- 
 }
 .info1-bot {
   font-size: 15px;
@@ -207,7 +201,6 @@
   width: 20%;
   font-size: 20px;
   font-weight: 600 !important;
-  
 }
 .kamel {
   width: 85%;
@@ -233,13 +226,12 @@
   padding: 0px 6px;
   padding-top: 5px;
   border: 1px solid black;
- 
 }
 .info p {
   height: 24px;
   word-spacing: 1px;
   font-size: 20px;
-  
+
   font-weight: 600;
 }
 .pelak-items {
@@ -250,7 +242,6 @@
   border-left: 1px solid black;
   margin-right: 2px;
   padding-left: 10px;
- 
 }
 .pelak-items p {
   word-spacing: 1px;
@@ -286,23 +277,21 @@
   height: 51px;
   margin: 8px 3px;
   border: 1px solid black;
-  
+
   font-weight: 600;
 }
 .bak1 {
-  font-family: "BNazanin-Regular" ;
+  font-family: "BNazanin-Regular";
   font-size: 19px !important;
 
   font-weight: 600;
   display: flex;
   align-items: end;
-  
- 
-height: 85%;
-  
+
+  height: 85%;
 }
 .bak p {
-  font-family: "BNazanin-Regular" ;
+  font-family: "BNazanin-Regular";
   font-size: 19px;
 }
 .inner-bak {
@@ -322,12 +311,16 @@ height: 85%;
 }
 .litr-span {
   font-family: "Vazir" !important;
-  font-size: 17px;
+  font-size: 18px;
 }
 .lit-style {
   /* font-family: "Vazir" !important; */
   /* font-weight:bold; */
   direction: ltr;
+  display: flex;
+  align-items: end;
+
+  width: 70px;
 }
 
 .signatuare-container {
@@ -339,7 +332,6 @@ height: 85%;
   padding: 2px;
   font-size: 17px !important;
   font-weight: 600;
-  
 }
 .sign-area {
   margin: 2px;
@@ -348,9 +340,8 @@ height: 85%;
   width: 100%;
   height: 100%;
   border: 1px solid black;
-  
 }
-.emza{
+.emza {
   word-spacing: 5px;
   margin-top: 8px;
 }

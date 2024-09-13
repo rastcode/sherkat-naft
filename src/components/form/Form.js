@@ -90,9 +90,9 @@ function Form() {
                 name={"حجم کل :"}
                 value={
                   total ? (
-                    <p className="lit-style">
+                    <div className="lit-style">
                       {` ${total}`} <span className="litr-span">Lit</span>
-                    </p>
+                    </div>
                   ) : (
                     "0"
                   )
