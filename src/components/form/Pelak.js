@@ -19,7 +19,7 @@ function Pelak() {
   return (
     <div className="info">
       <div className="info-bot">
-      <p style={{wordSpacing:'7px'}}> پلاک :</p>
+      <p style={{wordSpacing:'7px', marginLeft: '10px'}}> پلاک :</p>
       <div className={`${information.pelakCheck ? "kamel" : "pelak-items"}`}>
         <p>
           {pel

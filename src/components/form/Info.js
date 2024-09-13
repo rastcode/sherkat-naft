@@ -4,7 +4,7 @@ function Info({ className, placeholder, value }) {
   return (
     <div className={className}>
       <div className="info-bot">
-      <p style={{ wordSpacing: "7px" }}>{placeholder}</p>
+      <p style={{ wordSpacing: "7px", marginLeft: '15px'}}>{placeholder}</p>
       <p>{value}</p>
       </div>
      

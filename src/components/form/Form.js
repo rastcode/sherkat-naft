@@ -20,6 +20,7 @@ function Form() {
     bak3,
     bak4,
     arze,
+    teran,
 
     total,
   } = information;
@@ -34,7 +35,7 @@ function Form() {
             </div>
           </div>
 
-          <div className="company-name">شرکت ملی پخش فراورده های نفتی</div>
+          <div className="company-name">شرکت ملی پخش فرآورده های نفتی</div>
           <div class="date-container">
             <div className="date">
               <div className="tarikhh">
@@ -68,7 +69,7 @@ function Form() {
                 </p>
                 <div className="info1-info">
                   <p className="khareji">{identety}</p>
-                  <p className="tranship">ترانشیپ ورودی</p>
+                  <p className="tranship">{teran}</p>
                 </div>
               </div>
             </div>
