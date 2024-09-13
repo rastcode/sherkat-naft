@@ -312,15 +312,14 @@
 .litr-span {
   font-family: "Vazir" !important;
   font-size: 18px;
+  
 }
 .lit-style {
-  /* font-family: "Vazir" !important; */
-  /* font-weight:bold; */
   direction: ltr;
   display: flex;
   align-items: end;
 
-  width: 70px;
+ 
 }
 
 .signatuare-container {
