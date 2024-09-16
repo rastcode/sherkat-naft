@@ -90,12 +90,6 @@ function Inputs() {
               type={"text"}
               className={"inpute"}
             />
-             <Input
-              name={"teran"}
-              placeholder={"ترانشیپ"}
-              type={"text"}
-              className={"inpute"}
-            />
             <Input
               name={"identety"}
               placeholder={"شناسه"}

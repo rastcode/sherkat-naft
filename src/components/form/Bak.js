@@ -4,7 +4,7 @@ function Bak({ name, value }) {
   return (
     <div className="bak">
       <div className="inner-bak">
-        <p style={{ wordSpacing: "7px", marginLeft: '5px' }}>{name}</p>
+        <p style={{ wordSpacing: "7px" }}>{name}</p>
         <p className="bak1">{value}</p>
       </div>
     </div>
