@@ -30,7 +30,6 @@ function App() {
     arze: "",
     pelakCheck: "",
     etelaat: "",
-    teran: "",
   });
 
   const [date, setDate] = useState("");
